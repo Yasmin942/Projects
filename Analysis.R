@@ -6,7 +6,7 @@
 #              transformation, and interval estimation.
 # =============================================================================
 
-load("DroughtData.RData")
+load("DroughtData.RData") 
 set.seed(20256637)
 
 rem_ind <- sample(1:nrow(DroughtData), 20, replace=FALSE)
